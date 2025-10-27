@@ -31,8 +31,9 @@ console.log("p > q:", p > q);
 console.log("p < q:", p < q);
 console.log("p >= q:", p >= q);
 console.log("p <= q:", p <= q);
-console.log("p == q:", p == q);
+console.log("p == q:", p == q); // loosly comparison
 console.log("p != q:", p != q);
+console.log("p === q:", p === q); // strict comparison
 
 // String Operators
 let str1 = "Hello, ";
