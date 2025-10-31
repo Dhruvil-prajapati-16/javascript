@@ -1,4 +1,8 @@
-// 3 rules  1) name capital letter 2) Must be called using the 'new' operator 3) this keyword is used always with same name as constructor parameters
+// 3 rules  
+// 1) name capital letter 
+// 2) Must be called using the 'new' operator 
+// 3) this keyword is used always with same name as constructor parameters
+
 function User(name, age) {
     this.name = name;   // use same property names otherwise retuen undefined
     this.age = age;
@@ -6,6 +10,8 @@ function User(name, age) {
 
 let obj = new User("Dhruvil", 20);
 console.log(obj.name, "and", obj.age);
+
+
 
 function Add(x, y) {
  this.z = x + y;
